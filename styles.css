@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+}
+nav {
+    background-color:black;
+    color:yellow;
+    height:10vh;
+    align-items: center;
+    font-size: 50px;
+    border:solid 5px black;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Tektur', cursive;
+    font-weight: 300;
+    
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+nav img{
+    height:10vh;
+    width:6vw;
+}
+#word{
+    margin-left: 30px;
+}
+.gameContainer{
+    background-image: url("images/blackyello.webp");
+    background-repeat: no-repeat;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    height: 87vh;
+    border:solid 5px yellow;
+    background-size: 1400px 535px;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns:repeat(3,10vw);
+    grid-template-rows: repeat(3,20vh);
+    font-family: 'Tektur', cursive;
+    position: relative;
+    margin-top: 15vh;
+}
+.box{
+    
+    font-size: 7vw;
+    cursor: pointer;
+    display: flex;
+    border: 2px solid yellow;
+    align-items: center;
+    justify-content: center;
+}
+
+.box:hover{
+    background-color:rgba(232, 248, 5, 0.7);
+    
+}
+.gameInfo{
+    margin-top: 80px;
+    padding:0 34px;
+    
+}
+.gameInfo h1{
+    font-size: 50px;
+    text-shadow: 0 0 3px #fbfb16, 0 0 5px #7bff00;
+    
+}
+.info{
+    font-size: 50px;
+    text-shadow: 0 0 3px #efef05, 0 0 5px #fbff08;
+}
+.imgbox img{
+    width:0;
+    transition: width 1s ease-in-out;
+}
+
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+#reset{
+    width:100px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: yellow;
+    box-shadow: 1px;
+    color:black;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.x-color {
+    color: yellow;
+  }
+  
+.o-color {
+color: orange;
+}
